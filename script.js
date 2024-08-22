@@ -8,6 +8,7 @@ function obtenerYMostrarDatos() {
         .then(response => response.json()) // Convertir la respuesta a JSON
         .then(response => {
             const data = response.data;
+            console.log(data)
             // Crear el contenedor de la lista en HTML
             let listaHTML = "<ul>";
 
