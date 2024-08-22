@@ -7,6 +7,7 @@ function obtenerYMostrarDatos() {
     fetch(apiURL)
         .then(response => response.json()) // Convertir la respuesta a JSON
         .then(data => {
+            console.log(data)
             // Crear el contenedor de la lista en HTML
             let listaHTML = "<ul>";
 
