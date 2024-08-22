@@ -13,7 +13,7 @@ function obtenerYMostrarDatos() {
 
             // Recorrer los datos y agregar cada elemento como un <li> a la lista
             data.forEach(card => {
-                listaHTML += `<li>${card.name}</li>`;
+                listaHTML += `<li>${card.name}</li> <img src="${card.card_images.image_url_small}" />`;
             });
 
             listaHTML += "</ul>"; // Cerrar la lista desordenada
